@@ -1,0 +1,14 @@
+.error-log-action { display: inline-flex; align-items: center; flex-wrap: wrap; gap: 7px; max-width: 100%; margin: 4px 0 0; vertical-align: middle; }
+.error-log-action > .error-log-download { display: inline-flex; align-items: center; justify-content: center; gap: 5px; border: 1px solid #b9cbe8; border-radius: 7px; background: #fff; color: #2458a5; padding: 5px 8px; font: inherit; font-size: 11px; line-height: 1.5; cursor: pointer; white-space: nowrap; }
+.error-log-action > .error-log-download:hover:not(:disabled) { background: #edf4ff; border-color: #6190d8; }
+.error-log-action > .error-log-download:focus-visible { outline: 2px solid #245ee7; outline-offset: 2px; }
+.error-log-action > .error-log-download:disabled { opacity: .7; cursor: wait; }
+.error-log-feedback { font-size: 11px; line-height: 1.5; color: #36577d; overflow-wrap: anywhere; }
+.error-log-feedback.failed { color: #a12c2c; }
+.error-reference-links { display: inline-flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.error-log-notices { position: fixed; z-index: 10000; right: 20px; bottom: 20px; width: min(440px, calc(100vw - 40px)); display: grid; gap: 10px; }
+.error-log-notice { display: flex; align-items: flex-start; gap: 10px; padding: 16px; color: #763230; background: #fff8f7; border: 1px solid #e8bcb6; border-radius: 12px; box-shadow: 0 12px 36px #26304a29; font-size: 13px; }
+.error-log-notice > svg { flex-shrink: 0; margin-top: 2px; }
+.error-log-notice > div { flex: 1; min-width: 0; }
+.error-log-notice p { margin: 5px 0 8px; max-height: 100px; overflow: auto; overflow-wrap: anywhere; }
+.error-log-dismiss { flex-shrink: 0; border: 0; border-radius: 5px; color: #763230; background: transparent; padding: 3px; cursor: pointer; }

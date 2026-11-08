@@ -1,0 +1,12 @@
+node_modules/
+.standard-build/
+.standard-release-stage-*/
+release-standard-*/
+standard-public-source-*/
+standard-public-source-*.zip
+.acceptance/
+**/bin/
+**/obj/
+.env
+.env.*
+*.log

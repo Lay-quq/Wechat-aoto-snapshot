@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "sourceFiles": [
+    "electron/exportWorker.ts",
+    "electron/imageDecryptWorker.ts",
+    "electron/services/agentTextRedaction.ts",
+    "electron/services/errorDiagnosticsService.ts",
+    "electron/services/export/constants.ts",
+    "electron/services/export/contacts/avatarHelper.ts",
+    "electron/services/export/contacts/contactResolver.ts",
+    "electron/services/export/contacts/groupNickname.ts",
+    "electron/services/export/core/ExportContext.ts",
+    "electron/services/export/core/ExportOrchestrator.ts",
+    "electron/services/export/formatters/ChatLabFormatter.ts",
+    "electron/services/export/formatters/ExcelFormatter.ts",
+    "electron/services/export/formatters/HtmlFormatter.ts",
+    "electron/services/export/formatters/JsonFormatter.ts",
+    "electron/services/export/formatters/MarkdownFormatter.ts",
+    "electron/services/export/formatters/SqlFormatter.ts",
+    "electron/services/export/formatters/TxtFormatter.ts",
+    "electron/services/export/formatters/WeCloneFormatter.ts",
+    "electron/services/export/htmlChunking.ts",
+    "electron/services/export/htmlInfiniteScrollScript.ts",
+    "electron/services/export/index.ts",
+    "electron/services/export/media/attachmentResolver.ts",
+    "electron/services/export/media/fileCopy.ts",
+    "electron/services/export/parsers/contentDecoder.ts",
+    "electron/services/export/parsers/fileAppParser.ts",
+    "electron/services/export/parsers/forwardRecordParser.ts",
+    "electron/services/export/parsers/messageParser.ts",
+    "electron/services/export/parsers/quoteParser.ts",
+    "electron/services/export/parsers/transferParser.ts",
+    "electron/services/export/parsers/voipParser.ts",
+    "electron/services/export/parsers/xmlExtractor.ts",
+    "electron/services/export/stats/ExportStatsService.ts",
+    "electron/services/export/types.ts",
+    "electron/services/export/utils/fileNaming.ts",
+    "electron/services/export/utils/htmlEscape.ts",
+    "electron/services/export/utils/jsonlLineReader.ts",
+    "electron/services/export/utils/markdown.ts",
+    "electron/services/export/utils/parallelLimit.ts",
+    "electron/services/export/utils/timestamp.ts",
+    "electron/services/exportHtmlStyles.ts",
+    "electron/services/exportRecordService.ts",
+    "electron/services/exportWorkspace.ts",
+    "electron/services/imageDecryptService.ts",
+    "electron/services/nativeImageCore.ts",
+    "electron/services/nativeImageDecrypt.ts",
+    "electron/services/videoService.ts",
+    "electron/services/wechatConnectionDiscovery.ts",
+    "electron/services/weliveBridge.ts",
+    "electron/services/weliveLegacyManifest.ts",
+    "electron/standard/bootstrap.ts",
+    "electron/standard/chat.ts",
+    "electron/standard/config.ts",
+    "electron/standard/discovery.ts",
+    "electron/standard/helloWorker.ts",
+    "electron/standard/nativeComponents.ts",
+    "electron/standard/noTranscript.ts",
+    "electron/standard/runtime.ts",
+    "electron/standard/wcdb.ts",
+    "electron/standard/wcdbReadCore.ts",
+    "electron/standard/workerElectron.ts",
+    "electron/standardMain.ts",
+    "electron/standardPreload.ts",
+    "electron/utils/LRUCache.ts",
+    "electron/utils/pathUtils.ts",
+    "installer-commercial.nsh",
+    "public/icon.ico",
+    "public/icon.png",
+    "scripts/check-wcdb-host.cjs",
+    "scripts/standard-build.cjs",
+    "scripts/standard-dependencies.cjs",
+    "scripts/standard-package.cjs",
+    "scripts/standard-public-files.json",
+    "scripts/standard-release-policy.cjs",
+    "scripts/standard-source-export.cjs",
+    "scripts/standard-typecheck.cjs",
+    "shared/errorDiagnostics.ts",
+    "shared/standardExport.ts",
+    "shared/standardPurchaseChannels.json",
+    "src/components/ErrorBoundary.tsx",
+    "src/components/ErrorLogAction.scss",
+    "src/components/ErrorLogAction.tsx",
+    "src/components/ErrorLogProvider.tsx",
+    "src/standard/Standard.scss",
+    "src/standard/StandardApp.tsx",
+    "src/standard/env.d.ts",
+    "src/standard/main.tsx",
+    "standard.html",
+    "tools/wechat-connection-helper/.gitignore",
+    "tools/wechat-connection-helper/ConnectionProbe.cs",
+    "tools/wechat-connection-helper/ConnectionTests.cs",
+    "tools/wechat-connection-helper/Program.cs",
+    "tools/wechat-connection-helper/README.md",
+    "tools/wechat-connection-helper/WeFlow.WechatConnection.csproj",
+    "tools/wechat-native-helper/Evidence.cs",
+    "tools/wechat-native-helper/HandleTable.cs",
+    "tools/wechat-native-helper/NativeMethods.cs",
+    "vite.standard.config.ts"
+  ],
+  "resources": [
+    {
+      "path": "resources/key/win32/x64/wx_key.dll",
+      "sha256": "9a2f2c6a09a3219afa4748a5e7e513d99c607173c3112c5afcc888996b98248c"
+    },
+    {
+      "path": "resources/runtime/win32/msvcp140.dll",
+      "sha256": "def46aa6a8f72f27bafac0c43334419486a4d1dcdb6c479a8ef7034b3e1fa4cb"
+    },
+    {
+      "path": "resources/runtime/win32/msvcp140_1.dll",
+      "sha256": "2dd670f874562fbdca5b022df1943d70a57ba91fde559280e3a1daebe4db2380"
+    },
+    {
+      "path": "resources/runtime/win32/vcruntime140.dll",
+      "sha256": "184146852727a9db4eea06178716bec3cdbb1015c911f6b0f915b184ad7775b2"
+    },
+    {
+      "path": "resources/runtime/win32/vcruntime140_1.dll",
+      "sha256": "e6bfb3662ab4b1969a73441dbe35c96d51441b6bff8cf1fe7430bd5b246ca605"
+    },
+    {
+      "path": "resources/wcdb/win32/x64/SDL2.dll",
+      "sha256": "de23db1694a3c7a4a735e7ecd3d214b2023cc2267922c6c35d30c7fc7370d677"
+    },
+    {
+      "path": "resources/wcdb/win32/x64/WCDB.dll",
+      "sha256": "de80dc7b9117076f7f77e5ab5d6ee8dc44f8d3829c10549a800af2e4e219ebf8"
+    },
+    {
+      "path": "resources/wcdb/win32/x64/wcdb_api.dll",
+      "sha256": "9b1f7ea2c20d183b946f8fefad06bdd12eafd193c23db99ca425b419ebd46665"
+    },
+    {
+      "path": "resources/wechat-connection/win32-x64/LICENSE.TXT",
+      "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+    },
+    {
+      "path": "resources/wechat-connection/win32-x64/THIRD-PARTY-NOTICES.TXT",
+      "sha256": "b60b2912da28eaa6518593c9e2efb5334ee062d3c42e80d8fdfa806b3dc52977"
+    },
+    {
+      "path": "resources/wechat-connection/win32-x64/WeFlow.WechatConnection.exe",
+      "sha256": "c2ba5d9e3f1f5724aec835cf692b163d564b022c4a413531b24849a2f2761c81"
+    },
+    {
+      "path": "resources/wechat-connection/win32-x64/manifest.json",
+      "sha256": "1b2485c363190732955c9d886aca6a3a9fde5c8ecfaeba2cfa0c1e82f682ae6e"
+    },
+    {
+      "path": "resources/wedecrypt/win32/x64/weflow-image-native-win32-x64.node",
+      "sha256": "a5d7dabe89db730a5fc225baccb290c64a8d53d6c7744f5f0921d265fea44111"
+    },
+    {
+      "path": "resources/welive/win32/x64/resources/win32/x64/WCDB.dll",
+      "sha256": "de80dc7b9117076f7f77e5ab5d6ee8dc44f8d3829c10549a800af2e4e219ebf8"
+    },
+    {
+      "path": "resources/welive/win32/x64/resources/win32/x64/wcdb_api.dll",
+      "sha256": "b14bd63471f6023a0b86e503737311bcc4144088140f0d38a1cc28c05aab956e"
+    },
+    {
+      "path": "resources/welive/win32/x64/welive.exe",
+      "sha256": "62a472e7564b95f5c992db6e7e94d637ba64fd8d6696517191106b49ca9f5e33"
+    }
+  ],
+  "publicationFiles": [
+    {
+      "source": "LICENSE",
+      "target": "LICENSE"
+    },
+    {
+      "source": "NOTICE",
+      "target": "NOTICE"
+    },
+    {
+      "source": "README.md",
+      "target": "README.md"
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "target": "CONTRIBUTING.md"
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "AGENTS.md"
+    },
+    {
+      "source": "docs/build.md",
+      "target": "docs/build.md"
+    },
+    {
+      "source": "docs/third-party.md",
+      "target": "docs/third-party.md"
+    },
+    {
+      "source": "docs/assets/hero.svg",
+      "target": "docs/assets/hero.svg"
+    },
+    {
+      "source": "docs/assets/chat.png",
+      "target": "docs/assets/chat.png"
+    },
+    {
+      "source": "docs/assets/export.png",
+      "target": "docs/assets/export.png"
+    },
+    {
+      "source": ".github/workflows/windows.yml",
+      "target": ".github/workflows/windows.yml"
+    },
+    {
+      "source": ".github/ISSUE_TEMPLATE/bug.yml",
+      "target": ".github/ISSUE_TEMPLATE/bug.yml"
+    },
+    {
+      "source": ".github/ISSUE_TEMPLATE/feature.yml",
+      "target": ".github/ISSUE_TEMPLATE/feature.yml"
+    }
+  ]
+}

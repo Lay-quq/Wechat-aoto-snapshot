@@ -1,0 +1,527 @@
+{
+  "edition": "standard",
+  "version": "5.2.7",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug.yml",
+      "sha256": "d125096721f39af93b0567388108d7324b21e3eed18fd0fc6cec52e9a34a67fc"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature.yml",
+      "sha256": "8da9d3f65c883a6d58ca3c348f89083055b9f188482a5dfea476d40ee0031984"
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "sha256": "c968f56e961474f0a3f05f4ace9f4452deb7d6197c37247c20c43698e1be2183"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "20cd3eda77f18b87a18085513fade82439ed9867877a941c149ffeefa7d434b1"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "5933e7cc136e778c7edd5239998fda090a21b02e12371eca5a574eadcb60964a"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "cedb2973222c5e1bc33dff7cccfd1b525c44b173fe75336093751843b818d71f"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "a9d7ce2349ad8b05f4d948bb250dc606183c3e1623da057c74a8767dc0a93fa9"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a9dfd3094dda3aebbc902d70c70022fe98bb40a98434a551a4338466f80dfd6b"
+    },
+    {
+      "path": "docs/assets/chat.png",
+      "sha256": "477aaa14f17746bbc85f019fda363db34ed9162f157d5fcaecb0593a7168ac7a"
+    },
+    {
+      "path": "docs/assets/export.png",
+      "sha256": "155087fae4fcb2778ea95faf58743c36ebdeed4996dacaeb8139b8816ce93552"
+    },
+    {
+      "path": "docs/assets/hero.svg",
+      "sha256": "d951131691ffbb98dc19909c5a85efd724c142d5e26138a4c575f64250287531"
+    },
+    {
+      "path": "docs/build.md",
+      "sha256": "695eb82b336f3f91229ff19902855f9e0b78d2f1a48200a240317ccd5f8620df"
+    },
+    {
+      "path": "docs/third-party.md",
+      "sha256": "cc91a15af03d1332eedba50224a824c29bc5e8718b5208d3d34cd136382d3adf"
+    },
+    {
+      "path": "electron/exportWorker.ts",
+      "sha256": "096615ba2fecab9b1e2ee5c6670b93b0fece9ee61e09628ed1b1040cc4ac7224"
+    },
+    {
+      "path": "electron/imageDecryptWorker.ts",
+      "sha256": "5269126ffad5ff37c6f7ad359e9073ef7d7cc5d78c88d64d8dd2e8a5c86109a9"
+    },
+    {
+      "path": "electron/services/agentTextRedaction.ts",
+      "sha256": "d7411365096badc5ddfb5dc10d5c9767dfa2d1dc4b65e5a8f195874ad05ea278"
+    },
+    {
+      "path": "electron/services/errorDiagnosticsService.ts",
+      "sha256": "8e62891de221ccae1beed43b68d89f8b268f8847f58bf143abf9619ded63f69d"
+    },
+    {
+      "path": "electron/services/export/constants.ts",
+      "sha256": "d93ef8ceed50c9f4b26dcd83835dc1dc424e54735c1c636a18f9795910b3c8aa"
+    },
+    {
+      "path": "electron/services/export/contacts/avatarHelper.ts",
+      "sha256": "5a2387267c1564b446a3175ebf5da7c71c8e31d736631ffbce735b29d5d134f4"
+    },
+    {
+      "path": "electron/services/export/contacts/contactResolver.ts",
+      "sha256": "56437a7dbac9e268af89565c56216508eab96884062b77566397c40c5177c65e"
+    },
+    {
+      "path": "electron/services/export/contacts/groupNickname.ts",
+      "sha256": "56211eab6baba6ad04fe7a3b84d55e20c0a3358b36dd53b3c6fb6052d0666f47"
+    },
+    {
+      "path": "electron/services/export/core/ExportContext.ts",
+      "sha256": "cc26ca32e341a94c4677b36c537050d22f236db16768cb3452250e21db8fd6a9"
+    },
+    {
+      "path": "electron/services/export/core/ExportOrchestrator.ts",
+      "sha256": "109603f92013ab591c5d0b50639d024d16de1adfae5cc83f94659bdcde9e927a"
+    },
+    {
+      "path": "electron/services/export/formatters/ChatLabFormatter.ts",
+      "sha256": "4215cd87a77e443cafed9f166524d685a9316c9d097eccf6ab3e2dcad291d217"
+    },
+    {
+      "path": "electron/services/export/formatters/ExcelFormatter.ts",
+      "sha256": "385e777f3c8c5e06fe78d6be62ca36575014845cc89f3cbe29317ac56e9f6684"
+    },
+    {
+      "path": "electron/services/export/formatters/HtmlFormatter.ts",
+      "sha256": "575cf1663998eb67638cbfebbd7c82b6d805a93aa70bd49f81e10bbbc2b23974"
+    },
+    {
+      "path": "electron/services/export/formatters/JsonFormatter.ts",
+      "sha256": "95a8d50e858031f5a1b52a62b6c45c04f831a8bbb133c8a64318b20e962a83de"
+    },
+    {
+      "path": "electron/services/export/formatters/MarkdownFormatter.ts",
+      "sha256": "7b79a7573c379f0064c0c9184d6b6a804a9035c20b387aee00bc2358c3acabde"
+    },
+    {
+      "path": "electron/services/export/formatters/SqlFormatter.ts",
+      "sha256": "7773a004c072bf938ba6544a009222f52f9a3532d4d997873ef6d6142c7b304e"
+    },
+    {
+      "path": "electron/services/export/formatters/TxtFormatter.ts",
+      "sha256": "ba702a9835346761198714d704eb3ec040f23f39c0c91ebfbd6ad712fbb57523"
+    },
+    {
+      "path": "electron/services/export/formatters/WeCloneFormatter.ts",
+      "sha256": "3bc0ef002eb9678b01a1ea5c797c54d8a8574c40ec2d34d4918731eed48f633d"
+    },
+    {
+      "path": "electron/services/export/htmlChunking.ts",
+      "sha256": "dfe3fb96771eed48675d43693fd57bb762775bdfc70267e190637d7b4a8cde2c"
+    },
+    {
+      "path": "electron/services/export/htmlInfiniteScrollScript.ts",
+      "sha256": "47b690ec5193d3298c4493f2e406334f218698a2771478b4e9fa8144c7f45536"
+    },
+    {
+      "path": "electron/services/export/index.ts",
+      "sha256": "04e787f2f26d84e42f0e942c40e66077b6ec66ead79cfbc95b0e20bdd22084d0"
+    },
+    {
+      "path": "electron/services/export/media/attachmentResolver.ts",
+      "sha256": "28bcbfc2a03df8707218055cbc4a5245d3dc90081765ad1d6112fc1f4029fc2b"
+    },
+    {
+      "path": "electron/services/export/media/fileCopy.ts",
+      "sha256": "8442e5c11a051fb65a6a793a3a785dd6b9568dc6c2286c3feea1d2b6bc84b90f"
+    },
+    {
+      "path": "electron/services/export/parsers/contentDecoder.ts",
+      "sha256": "62fa8cbcdb0729acdf1c67ded93690d8c7244eb1fb743dbdd488315b8e89e07e"
+    },
+    {
+      "path": "electron/services/export/parsers/fileAppParser.ts",
+      "sha256": "647e51d5bc7038e7c6c92a9b7b65b944d4559b7af53b5d42ca01e7a50d7f52d8"
+    },
+    {
+      "path": "electron/services/export/parsers/forwardRecordParser.ts",
+      "sha256": "88f99b6899ade4107453a020cbe1b8ebb393a7f40c15e08fa06b73191849aa29"
+    },
+    {
+      "path": "electron/services/export/parsers/messageParser.ts",
+      "sha256": "a822ceb49309682650734c73fe55030735c2b09840739b834e04079793be0769"
+    },
+    {
+      "path": "electron/services/export/parsers/quoteParser.ts",
+      "sha256": "4e4c66109f01f16deaef3fd62ab5a7b0f2b50cd666f99504e9eabee48b78ecd2"
+    },
+    {
+      "path": "electron/services/export/parsers/transferParser.ts",
+      "sha256": "3561656b8737b2612accb23a51cc41ed5c0c716c5f8f206c9f2f5bf6f84406a7"
+    },
+    {
+      "path": "electron/services/export/parsers/voipParser.ts",
+      "sha256": "930ea1b00beddaccf6b0c13b9c8f26ae429bdf58a20061bb077d2ff2174979a1"
+    },
+    {
+      "path": "electron/services/export/parsers/xmlExtractor.ts",
+      "sha256": "940d5b7ea85a22f17453398fcbe4accb01b5b4ccb6458fd4f2570a3b00948f4e"
+    },
+    {
+      "path": "electron/services/export/stats/ExportStatsService.ts",
+      "sha256": "0481d8f802a96c59fa000bb9eb47e869557b0901e1edadf350c545e2c1e37949"
+    },
+    {
+      "path": "electron/services/export/types.ts",
+      "sha256": "23eaf63ecaffd5a16497dbd72d4c9674ba597cd41d7780e4a05e90886fe32556"
+    },
+    {
+      "path": "electron/services/export/utils/fileNaming.ts",
+      "sha256": "1f05168c83552ec48e6f1c634a53b3331b0fa5774348eda87cf287e36a8adcec"
+    },
+    {
+      "path": "electron/services/export/utils/htmlEscape.ts",
+      "sha256": "e1b756555a4416805091a6528a2c0f3ff38b469052785541901fe8600b4a2bc6"
+    },
+    {
+      "path": "electron/services/export/utils/jsonlLineReader.ts",
+      "sha256": "5e24dbce94aafaaa207b40abd8ec3a2447d98fec248c2694a6aa7ada1af1fada"
+    },
+    {
+      "path": "electron/services/export/utils/markdown.ts",
+      "sha256": "99207236f97d59b6e48630a57d826d4265aff3819e4e472b1794a110cad8bbc2"
+    },
+    {
+      "path": "electron/services/export/utils/parallelLimit.ts",
+      "sha256": "a294ddff9e4e16db6d2cc3af1911fe05c7cbfa77d4aaad6e52ad13e074f5dc37"
+    },
+    {
+      "path": "electron/services/export/utils/timestamp.ts",
+      "sha256": "5731a8ca9d840447fe8254a13be35cab112142a22c3d3bc550adbebc4cfb84ab"
+    },
+    {
+      "path": "electron/services/exportHtmlStyles.ts",
+      "sha256": "53e9831051083bad5048d2223dcaa827494e92c4706e926ea0587b4ada7aa8dd"
+    },
+    {
+      "path": "electron/services/exportRecordService.ts",
+      "sha256": "4af3efd808ea99118452acdc26338a2e8137aaea348d4d5f953b493494204f3c"
+    },
+    {
+      "path": "electron/services/exportWorkspace.ts",
+      "sha256": "3b5b282425e09bfff71a66e93c45a50dcdad169b6ed80923eac145dd457fdc56"
+    },
+    {
+      "path": "electron/services/imageDecryptService.ts",
+      "sha256": "e6b1edd3bf0401123c599e357692b9e7b191b8fed751d442b6c8315edaa27ccd"
+    },
+    {
+      "path": "electron/services/nativeImageCore.ts",
+      "sha256": "df97eaf760bd865f9cabdd0b285bcad62dea20dac3e7d799f2c1c944b6d4fd55"
+    },
+    {
+      "path": "electron/services/nativeImageDecrypt.ts",
+      "sha256": "41e208b169f40fe2ab1fdce349fa4623cfc976874530d354a34c73f16b753bd3"
+    },
+    {
+      "path": "electron/services/videoService.ts",
+      "sha256": "e3027c025fa2d335de2e8fccede4f3a68ac5714a61afa324d897ae4bac3446ef"
+    },
+    {
+      "path": "electron/services/wechatConnectionDiscovery.ts",
+      "sha256": "3252b78d49e046a5b23c3f3c576efb48f4365be702aa5f7e8bb0dda9a4652182"
+    },
+    {
+      "path": "electron/services/weliveBridge.ts",
+      "sha256": "2e085400a5c49837159439e731145d21ba0af2ee6b82f005419f9ec0ecd052d2"
+    },
+    {
+      "path": "electron/services/weliveLegacyManifest.ts",
+      "sha256": "54a5c4dc9580a3907cd3fda853daeb0767d2ec84a1a4471d156f1f3400cc0d93"
+    },
+    {
+      "path": "electron/standard/bootstrap.ts",
+      "sha256": "4f7ba72d4112865c6d4d33e1d7f7db0584aa0bbb797529e48754281c614d5136"
+    },
+    {
+      "path": "electron/standard/chat.ts",
+      "sha256": "eac9ba423bb70728856b37c97c9276b78ac596a3bda4cdbfbd29990a4a371175"
+    },
+    {
+      "path": "electron/standard/config.ts",
+      "sha256": "c50df175ba1b24923848f212c3ce52744f6c09a951d23e0cb706e8addcf914d9"
+    },
+    {
+      "path": "electron/standard/discovery.ts",
+      "sha256": "5580d8238d1768a23d7f161ed2c88b3685f25c4028d8cc2cf5d146f8d48f73fc"
+    },
+    {
+      "path": "electron/standard/helloWorker.ts",
+      "sha256": "0c42eeb768dbd1e8528aff52e201fbcba428decb3b0dd8ac1544a481de6a01ae"
+    },
+    {
+      "path": "electron/standard/nativeComponents.ts",
+      "sha256": "66caeb585c396d4eacbf20db03da12157e66baad16b77a9d9892b9e4e36120fe"
+    },
+    {
+      "path": "electron/standard/noTranscript.ts",
+      "sha256": "99e913ad840635f2c4d861328a0984dbcaf80ade4e5928a0dba574fef4c99f70"
+    },
+    {
+      "path": "electron/standard/runtime.ts",
+      "sha256": "1f0384694001fbfd6714c668369188eead55803baf535be424d1efd52fea1a09"
+    },
+    {
+      "path": "electron/standard/wcdb.ts",
+      "sha256": "2539652d1f42a87413cb4eb95e7092c7c87a0525aed2d41ea6fa1f90c231efff"
+    },
+    {
+      "path": "electron/standard/wcdbReadCore.ts",
+      "sha256": "fc2127a547e786cb6108369a936ecf39fdbdc673e8abfedd2bc5e702bbf67fbb"
+    },
+    {
+      "path": "electron/standard/workerElectron.ts",
+      "sha256": "a1f612ad9a4aad5099773568c0fbea7dacd653882b39f0753e507c12461450f5"
+    },
+    {
+      "path": "electron/standardMain.ts",
+      "sha256": "fe73b26483bdb56ee8ee66cf3ba7f008832718ce572c3203d687e84a932be910"
+    },
+    {
+      "path": "electron/standardPreload.ts",
+      "sha256": "bb1dd2bdc7d555a2112f87c7e60e0f7c265b284719f43319abd2c80adc1865cc"
+    },
+    {
+      "path": "electron/utils/LRUCache.ts",
+      "sha256": "2f83373899e591ab6e78f9e16ad0f60efd3f23a5ace333c72cc5cd06771f8b06"
+    },
+    {
+      "path": "electron/utils/pathUtils.ts",
+      "sha256": "8a8a6088ea9083caf08b4b76989f6f267d9726ad275820199f1c624eb822b6c0"
+    },
+    {
+      "path": "installer-commercial.nsh",
+      "sha256": "35096ce74284e518ecf5573e6cc7573a531180dd519fc7b62aa84d5ba9a9b5bd"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "0b0ec695b2c7e416c177d358a1bdf70e3176d000463ca43cb4b1179df0c19402"
+    },
+    {
+      "path": "package.json",
+      "sha256": "e414d8841bd7ad4274529c2cabbb1a41a4b23cfb7f84fdd963f31210198ca2bf"
+    },
+    {
+      "path": "public/icon.ico",
+      "sha256": "a7c3de2f8ac3ab5f75ac50da7e34ef2114967112a3b56b9e2f78bef4c3718b52"
+    },
+    {
+      "path": "public/icon.png",
+      "sha256": "57ee13ff8fb1c21841e607e9bb3480658efb64d25388dfbd280b821d29f81637"
+    },
+    {
+      "path": "resources/key/win32/x64/wx_key.dll",
+      "sha256": "9a2f2c6a09a3219afa4748a5e7e513d99c607173c3112c5afcc888996b98248c"
+    },
+    {
+      "path": "resources/runtime/win32/msvcp140.dll",
+      "sha256": "def46aa6a8f72f27bafac0c43334419486a4d1dcdb6c479a8ef7034b3e1fa4cb"
+    },
+    {
+      "path": "resources/runtime/win32/msvcp140_1.dll",
+      "sha256": "2dd670f874562fbdca5b022df1943d70a57ba91fde559280e3a1daebe4db2380"
+    },
+    {
+      "path": "resources/runtime/win32/vcruntime140.dll",
+      "sha256": "184146852727a9db4eea06178716bec3cdbb1015c911f6b0f915b184ad7775b2"
+    },
+    {
+      "path": "resources/runtime/win32/vcruntime140_1.dll",
+      "sha256": "e6bfb3662ab4b1969a73441dbe35c96d51441b6bff8cf1fe7430bd5b246ca605"
+    },
+    {
+      "path": "resources/wcdb/win32/x64/SDL2.dll",
+      "sha256": "de23db1694a3c7a4a735e7ecd3d214b2023cc2267922c6c35d30c7fc7370d677"
+    },
+    {
+      "path": "resources/wcdb/win32/x64/WCDB.dll",
+      "sha256": "de80dc7b9117076f7f77e5ab5d6ee8dc44f8d3829c10549a800af2e4e219ebf8"
+    },
+    {
+      "path": "resources/wcdb/win32/x64/wcdb_api.dll",
+      "sha256": "9b1f7ea2c20d183b946f8fefad06bdd12eafd193c23db99ca425b419ebd46665"
+    },
+    {
+      "path": "resources/wechat-connection/win32-x64/LICENSE.TXT",
+      "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+    },
+    {
+      "path": "resources/wechat-connection/win32-x64/THIRD-PARTY-NOTICES.TXT",
+      "sha256": "b60b2912da28eaa6518593c9e2efb5334ee062d3c42e80d8fdfa806b3dc52977"
+    },
+    {
+      "path": "resources/wechat-connection/win32-x64/WeFlow.WechatConnection.exe",
+      "sha256": "c2ba5d9e3f1f5724aec835cf692b163d564b022c4a413531b24849a2f2761c81"
+    },
+    {
+      "path": "resources/wechat-connection/win32-x64/manifest.json",
+      "sha256": "1b2485c363190732955c9d886aca6a3a9fde5c8ecfaeba2cfa0c1e82f682ae6e"
+    },
+    {
+      "path": "resources/wedecrypt/win32/x64/weflow-image-native-win32-x64.node",
+      "sha256": "a5d7dabe89db730a5fc225baccb290c64a8d53d6c7744f5f0921d265fea44111"
+    },
+    {
+      "path": "resources/welive/win32/x64/resources/win32/x64/WCDB.dll",
+      "sha256": "de80dc7b9117076f7f77e5ab5d6ee8dc44f8d3829c10549a800af2e4e219ebf8"
+    },
+    {
+      "path": "resources/welive/win32/x64/resources/win32/x64/wcdb_api.dll",
+      "sha256": "b14bd63471f6023a0b86e503737311bcc4144088140f0d38a1cc28c05aab956e"
+    },
+    {
+      "path": "resources/welive/win32/x64/welive.exe",
+      "sha256": "62a472e7564b95f5c992db6e7e94d637ba64fd8d6696517191106b49ca9f5e33"
+    },
+    {
+      "path": "scripts/check-wcdb-host.cjs",
+      "sha256": "02a3263273475bc620426227e115457060c2e7ea9129aa9a5f3150838141aac7"
+    },
+    {
+      "path": "scripts/standard-build.cjs",
+      "sha256": "bfe4e6efd3e1372ccecfe66ccb21caf7b496fccc08298e8b31948e3256a20f51"
+    },
+    {
+      "path": "scripts/standard-dependencies.cjs",
+      "sha256": "32883b1f31737452d3cc0543b2b1bffeb90a51d78e301b7d51c118cb742f8fc8"
+    },
+    {
+      "path": "scripts/standard-package.cjs",
+      "sha256": "8e0325a8798cc8dbf88f11b25558e754bd4e9b7c9393c03f9a5118bc6e027a95"
+    },
+    {
+      "path": "scripts/standard-public-files.json",
+      "sha256": "b8debdedb36c0e1af45abae3ea92e1ba2f2592372c320bab04a0de3133148061"
+    },
+    {
+      "path": "scripts/standard-release-policy.cjs",
+      "sha256": "f800823c312f5bb97a51762759bf76736b0543313b573b2354ffb78b41696153"
+    },
+    {
+      "path": "scripts/standard-source-export.cjs",
+      "sha256": "8c0d1ebfda4c3a836d6fbbcb36cb34ef1702c9096e036928c7c835c91cd93a03"
+    },
+    {
+      "path": "scripts/standard-typecheck.cjs",
+      "sha256": "e2c73f66517a8136bedb3fd4b11cbf29b23225071352b4fe05590dca4cccfe5a"
+    },
+    {
+      "path": "shared/errorDiagnostics.ts",
+      "sha256": "99290be5386ece7f5b494c8c084093fce383654fce5feda36f9e4a81b5a1f63a"
+    },
+    {
+      "path": "shared/standardExport.ts",
+      "sha256": "ee825209635cfef227eda7375f54ddb87111e3ef2764ec9b4976f28d8093b91e"
+    },
+    {
+      "path": "shared/standardPurchaseChannels.json",
+      "sha256": "4cf16ea91900c51db4cc59b6feff0a78153721033a2654cd520fbb1fc1a80afa"
+    },
+    {
+      "path": "src/components/ErrorBoundary.tsx",
+      "sha256": "a7e854ca375407628dc09bc89a5a228b1cc4f2343c7d295c25fed3f4b2b61b64"
+    },
+    {
+      "path": "src/components/ErrorLogAction.scss",
+      "sha256": "a114cec2a98000d7203eacefb426a0007c8b919a0121f6b94b1aa49178a4aabb"
+    },
+    {
+      "path": "src/components/ErrorLogAction.tsx",
+      "sha256": "08415f751f9c87e6fd630fe3518422e85ac45db31210fd272eed74161a5bec0a"
+    },
+    {
+      "path": "src/components/ErrorLogProvider.tsx",
+      "sha256": "0521337ccc990cdd56c6d092c8d7197af3f0968094b8d7bde8178d144bdc5564"
+    },
+    {
+      "path": "src/standard/Standard.scss",
+      "sha256": "67d2a78093bfc87422cf02f96ffd86ee23c74c280996a7d32201c496e79f8067"
+    },
+    {
+      "path": "src/standard/StandardApp.tsx",
+      "sha256": "7c1c9a043f25a5dd6c370215c49918f8926aaf03c2411bc663198911c83a359b"
+    },
+    {
+      "path": "src/standard/env.d.ts",
+      "sha256": "424faf9241dd699dda995b367ed36665732da1e6ec1f33b2fd40394488ecac92"
+    },
+    {
+      "path": "src/standard/main.tsx",
+      "sha256": "4858ada572ec875112eda022d42c8edfd81d00f17f6b6ea6c4d53160d5ce71b3"
+    },
+    {
+      "path": "standard.html",
+      "sha256": "cfb378b67a43a531c21270cf9d1ba3df47f8efc9a620671ca02987c634362bed"
+    },
+    {
+      "path": "tools/wechat-connection-helper/.gitignore",
+      "sha256": "79914b5e84e1a58b12d9e874ea343e2d131dcdaaf0a3bacf01210219fc679d13"
+    },
+    {
+      "path": "tools/wechat-connection-helper/ConnectionProbe.cs",
+      "sha256": "81a64e6abdf2e70e79f04a5ebfbc740d3327bd0c9ec765a0f9ba574cb943e016"
+    },
+    {
+      "path": "tools/wechat-connection-helper/ConnectionTests.cs",
+      "sha256": "d6218515b627b818d21d6102f651e96163a672032c675417e305304a3eaae39e"
+    },
+    {
+      "path": "tools/wechat-connection-helper/Program.cs",
+      "sha256": "561505c089061745284e3cdbd4df65840681036634bd72afdcd4b0f0800f33a4"
+    },
+    {
+      "path": "tools/wechat-connection-helper/README.md",
+      "sha256": "39c9a540e673cd2859dcff405d1a2bf02486a5179f603f3070006a1bae63eddf"
+    },
+    {
+      "path": "tools/wechat-connection-helper/WeFlow.WechatConnection.csproj",
+      "sha256": "bfc7a41d9e8b1645f504955af45bae2334a203e2647bec14b7d1eb3394f69b48"
+    },
+    {
+      "path": "tools/wechat-native-helper/Evidence.cs",
+      "sha256": "e88c1268d40f90bbb456f72cdf99b7430d71a83b4d42c2210fb29a4161653684"
+    },
+    {
+      "path": "tools/wechat-native-helper/HandleTable.cs",
+      "sha256": "741307d6755cd7ac91afa333e69326a47a20c3a008d5f714e5a7104ac5dfa395"
+    },
+    {
+      "path": "tools/wechat-native-helper/NativeMethods.cs",
+      "sha256": "e605a5305157c6bb727e03e2fc23a4546e4dc9c2bc432b9626c4ed1554838ba4"
+    },
+    {
+      "path": "vite.standard.config.ts",
+      "sha256": "9e3913c2c3303078056eb826a4f364ffbaa433e031479f0050f152cda7784e60"
+    }
+  ],
+  "gitHistoryIncluded": false
+}

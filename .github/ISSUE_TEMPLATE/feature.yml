@@ -1,0 +1,11 @@
+name: 功能建议
+description: 针对聊天浏览、媒体解码和导出的改进建议
+title: "[Feature] "
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 使用场景与希望的改进
+      description: 请说明当前遇到的具体问题，不要包含真实聊天或个人资料。
+    validations:
+      required: true

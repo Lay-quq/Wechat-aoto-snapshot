@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="title desc">
+<title id="title">Wechat-aoto-snapshot</title><desc id="desc">把微信记录，留在自己手里。本地连接、聊天浏览、媒体解码、多格式导出。</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07151e"/><stop offset="1" stop-color="#123a3e"/></linearGradient><linearGradient id="accent"><stop stop-color="#62f3be"/><stop offset="1" stop-color="#55d8f3"/></linearGradient><pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#a8ffec" stroke-opacity=".045"/></pattern></defs>
+<rect width="1600" height="640" rx="28" fill="url(#bg)"/><rect width="1600" height="640" rx="28" fill="url(#grid)"/>
+<circle cx="1450" cy="30" r="260" fill="#3ddcb4" opacity=".045"/>
+<g font-family="Segoe UI,Microsoft YaHei,sans-serif">
+<rect x="80" y="66" width="145" height="34" rx="17" fill="#173f41" stroke="#285956"/>
+<circle cx="99" cy="83" r="4" fill="#62f3be"/><text x="115" y="89" fill="#b6f5e3" font-size="15" letter-spacing="2">LOCAL FIRST</text>
+<text x="80" y="160" fill="#b1c9ca" font-size="23" letter-spacing="2">WECHAT-AOTO-SNAPSHOT</text>
+<text x="76" y="270" fill="#f2fbf8" font-size="77" font-weight="700">把微信记录，</text>
+<text x="76" y="370" fill="url(#accent)" font-size="77" font-weight="700">留在自己手里。</text>
+<text x="80" y="434" fill="#a5bfbe" font-size="24">本地连接 / 聊天浏览 / 媒体解码 / 多格式导出</text>
+<line x1="80" y1="502" x2="740" y2="502" stroke="#2b4b4c"/>
+<text x="80" y="550" fill="#e0f2ed" font-size="17" letter-spacing="2">WINDOWS x64</text>
+<text x="295" y="550" fill="#82a6a6" font-size="17">APACHE 2.0</text>
+<text x="660" y="550" fill="#62f3be" font-size="17">v5.2.7</text>
+<g transform="translate(905,116)">
+<rect x="18" y="25" width="590" height="415" rx="24" fill="#020d12" opacity=".3"/>
+<rect width="590" height="415" rx="20" fill="#102e37" stroke="#426768"/>
+<path d="M20 0h550q20 0 20 20v32H0V20Q0 0 20 0" fill="#1b3b42"/>
+<circle cx="24" cy="26" r="5" fill="#69908e"/><circle cx="43" cy="26" r="5" fill="#69908e"/><circle cx="62" cy="26" r="5" fill="#69908e"/>
+<text x="295" y="33" text-anchor="middle" fill="#c1dad6" font-size="15">YOUR CONVERSATIONS, YOUR COPY</text>
+<rect x="24" y="80" width="50" height="50" rx="16" fill="#1e685f"/><path d="M39 97h20v15H47l-6 5v-5h-2z" fill="none" stroke="#8bf6cc" stroke-width="2"/>
+<text x="92" y="101" fill="#e6f5ef" font-size="20">每一次对话，清晰保存</text>
+<text x="92" y="127" fill="#81a6a4" font-size="14">Browse. Decode. Export.</text>
+<rect x="24" y="158" width="375" height="55" rx="12" fill="#21434a"/><rect x="45" y="178" width="250" height="6" rx="3" fill="#729c9a"/><rect x="45" y="192" width="180" height="5" rx="2" fill="#426e70"/>
+<rect x="150" y="232" width="415" height="55" rx="12" fill="#255b50"/><rect x="171" y="252" width="315" height="6" rx="3" fill="#9cceba"/><rect x="171" y="266" width="240" height="5" rx="2" fill="#508879"/>
+<g fill="#143c42" stroke="#376467"><rect x="24" y="322" width="122" height="52" rx="12"/><rect x="160" y="322" width="122" height="52" rx="12"/><rect x="296" y="322" width="122" height="52" rx="12"/><rect x="432" y="322" width="133" height="52" rx="12"/></g>
+<g fill="#b8e7d7" font-size="16" text-anchor="middle"><text x="85" y="354">HTML</text><text x="221" y="354">Markdown</text><text x="357" y="354">JSON</text><text x="499" y="354">+ 7 FORMATS</text></g>
+</g></g></svg>

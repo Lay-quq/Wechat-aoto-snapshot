@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><PlatformTarget>x64</PlatformTarget>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AssemblyName>WeFlow.WechatConnection</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../wechat-native-helper/NativeMethods.cs" Link="NativeMethods.cs" />
+    <Compile Include="../wechat-native-helper/HandleTable.cs" Link="HandleTable.cs" />
+    <Compile Include="../wechat-native-helper/Evidence.cs" Link="Evidence.cs" />
+  </ItemGroup>
+</Project>

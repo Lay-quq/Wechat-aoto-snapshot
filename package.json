@@ -1,0 +1,50 @@
+{
+  "name": "wechat-aoto-snapshot",
+  "version": "5.2.7",
+  "description": "Local-first WeChat history: browse, decode and export.",
+  "main": "dist-electron/standardMain.js",
+  "author": {
+    "name": "Lay-quq"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lay-quq/Wechat-aoto-snapshot.git"
+  },
+  "homepage": "https://github.com/Lay-quq/Wechat-aoto-snapshot#readme",
+  "bugs": {
+    "url": "https://github.com/Lay-quq/Wechat-aoto-snapshot/issues"
+  },
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/standard-package.cjs",
+    "build:compile": "node scripts/standard-build.cjs .standard-build",
+    "typecheck": "node scripts/standard-typecheck.cjs",
+    "test:source": "node scripts/standard-release-policy.cjs",
+    "verify:source": "node scripts/standard-source-export.cjs --verify",
+    "export:source": "node scripts/standard-source-export.cjs"
+  },
+  "dependencies": {
+    "exceljs": "4.4.0",
+    "ffmpeg-static": "5.3.0",
+    "fzstd": "0.1.1",
+    "koffi": "3.1.0",
+    "silk-wasm": "3.7.1",
+    "wechat-emojis": "1.0.2",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.0.3",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "electron": "43.0.0",
+    "electron-builder": "26.15.3",
+    "esbuild": "0.28.1",
+    "lucide-react": "1.23.0",
+    "sass": "1.101.0",
+    "typescript": "6.0.3",
+    "vite": "8.1.3",
+    "@types/node": "24.12.0"
+  }
+}

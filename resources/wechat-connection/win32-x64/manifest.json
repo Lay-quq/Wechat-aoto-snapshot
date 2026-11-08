@@ -1,0 +1,46 @@
+{
+  "protocol": 1,
+  "kind": "read-only-connection-discovery",
+  "executable": "WeFlow.WechatConnection.exe",
+  "size": 67548324,
+  "sha256": "c2ba5d9e3f1f5724aec835cf692b163d564b022c4a413531b24849a2f2761c81",
+  "sourceFiles": [
+    {
+      "path": "tools/wechat-connection-helper/ConnectionProbe.cs",
+      "sha256": "81a64e6abdf2e70e79f04a5ebfbc740d3327bd0c9ec765a0f9ba574cb943e016"
+    },
+    {
+      "path": "tools/wechat-connection-helper/ConnectionTests.cs",
+      "sha256": "d6218515b627b818d21d6102f651e96163a672032c675417e305304a3eaae39e"
+    },
+    {
+      "path": "tools/wechat-connection-helper/Program.cs",
+      "sha256": "561505c089061745284e3cdbd4df65840681036634bd72afdcd4b0f0800f33a4"
+    },
+    {
+      "path": "tools/wechat-connection-helper/WeFlow.WechatConnection.csproj",
+      "sha256": "bfc7a41d9e8b1645f504955af45bae2334a203e2647bec14b7d1eb3394f69b48"
+    },
+    {
+      "path": "tools/wechat-native-helper/NativeMethods.cs",
+      "sha256": "e605a5305157c6bb727e03e2fc23a4546e4dc9c2bc432b9626c4ed1554838ba4"
+    },
+    {
+      "path": "tools/wechat-native-helper/HandleTable.cs",
+      "sha256": "741307d6755cd7ac91afa333e69326a47a20c3a008d5f714e5a7104ac5dfa395"
+    },
+    {
+      "path": "tools/wechat-native-helper/Evidence.cs",
+      "sha256": "e88c1268d40f90bbb456f72cdf99b7430d71a83b4d42c2210fb29a4161653684"
+    }
+  ],
+  "validation": {
+    "syntheticOnly": true,
+    "selfTest": {
+      "passed": 14,
+      "failed": 0,
+      "syntheticOnly": true
+    },
+    "probeExecuted": false
+  }
+}

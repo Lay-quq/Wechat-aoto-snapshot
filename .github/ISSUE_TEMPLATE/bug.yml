@@ -1,0 +1,18 @@
+name: 问题反馈
+description: 提交可复现的普通版问题
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 应用、Windows 与微信版本
+      placeholder: "5.2.7 / Windows 11 x64 / 微信版本"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤、预期结果与实际结果
+      description: 请勿提交真实聊天、账号、密钥或原始数据库；截图使用合成数据。
+    validations:
+      required: true
