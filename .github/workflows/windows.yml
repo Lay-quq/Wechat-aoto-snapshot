@@ -16,7 +16,12 @@ jobs:
         with:
           node-version: '24'
           cache: npm
-      - run: npm ci --no-audit --no-fund
+      # This job checks source and compilation, not packaged media execution.
+      # Release packaging prepares and verifies the complete runtime separately.
+      - name: Install source-check dependencies
+        run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Prepare the compiler
+        run: npm rebuild esbuild
       - run: npm run verify:source
       - run: npm run test:source
       - run: npm run typecheck

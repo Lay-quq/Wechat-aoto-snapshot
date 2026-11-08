@@ -16,7 +16,7 @@
     },
     {
       "path": ".github/workflows/windows.yml",
-      "sha256": "c968f56e961474f0a3f05f4ace9f4452deb7d6197c37247c20c43698e1be2183"
+      "sha256": "8f39e5cf80e2dafdb21164229588af8912fb2b5e9e98b036eef2a6405a4c2136"
     },
     {
       "path": ".gitignore",
@@ -56,7 +56,7 @@
     },
     {
       "path": "docs/build.md",
-      "sha256": "695eb82b336f3f91229ff19902855f9e0b78d2f1a48200a240317ccd5f8620df"
+      "sha256": "25628682aee758ba733a07f3522dbb5d480482b9d6e9bae5ba4100166dbbace0"
     },
     {
       "path": "docs/third-party.md",
